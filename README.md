@@ -101,7 +101,7 @@ Este repositorio contiene materiales, ejercicios y apuntes del curso completo de
 
 ## 📎 Autor del curso
 
-Curso impartido por **Andrés Guzmán Dev**, disponible en [YouTube](https://www.youtube.com/@andresguzmandev).
+Curso impartido por **Andrés Guzmán Dev**, disponible en [YouTube](https://youtube.com/playlist?list=PLb9gJ6hvvBccfnhup7-bhC7wnATg-erfj&si=LitUbpqXE9-dNAnt).
 
 ---
 
