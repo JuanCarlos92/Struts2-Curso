@@ -5,10 +5,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Struts2_HolaMundo/pom.xml" />
+        <option value="$PROJECT_DIR$/Struts2_mvc3_actionMapping_anotaciones/pom.xml" />
+        <option value="$PROJECT_DIR$/Struts2_mvc1_actionMapping_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/Struts2_mvc2_actionMapping_xml_wildCard/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

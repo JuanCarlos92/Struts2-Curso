@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Struts2_mvc3_actionMapping_anotaciones" />
+        <module name="Struts2_mvc1_actionMapping_xml" />
+        <module name="Struts2_mvc2_actionMapping_xml_wildCard" />
+        <module name="Struts2_HolaMundo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

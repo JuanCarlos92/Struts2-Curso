@@ -5,11 +5,8 @@
     <groupId>com.juancarlos</groupId>
     <artifactId>Struts2_HolaMundo</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <name>Struts2_curso</name>
-    <modules>
-        <module>struts2_mvc1_actionMapping_xml</module>
-    </modules>
+    <packaging>war</packaging>
+    <name>Struts2_HolaMundo</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

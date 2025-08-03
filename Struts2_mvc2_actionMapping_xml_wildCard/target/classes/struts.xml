@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+    <constant name="struts.devMode" value="true"/>
+
+    <package name="actionmappingxml" namespace="/holamundo" extends="struts-default">
+
+        <default-action-ref name="struts2" />
+
+        <action name="*" method="{1}" class="com.juancarlos.example.mvc.actionmappingxmlwildcard.EjemploActionOrController">
+            <result>/WEB-INF/views/{1}.jsp</result>
+            <allowed-methods>holaMundo, struts2, spring, hibernate, jpa2</allowed-methods>
+        </action>
+
+    </package>
+
+    <package name="default" namespace="/" extends="struts-default">
+
+        <default-action-ref name="index"/>
+
+        <action name="index">
+            <result>/WEB-INF/views/index.jsp</result>
+        </action>
+
+    </package>
+
+    <!-- Add addition packages and configuration here. -->
+</struts>
