@@ -9,6 +9,7 @@
         <module name="Struts2_mvc3_actionMapping_anotaciones" />
         <module name="Struts2_mvc1_actionMapping_xml" />
         <module name="Struts2_mvc2_actionMapping_xml_wildCard" />
+        <module name="Struts2_mvc4_requestParameter" />
         <module name="Struts2_HolaMundo" />
       </profile>
     </annotationProcessing>

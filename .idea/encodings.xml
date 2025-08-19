@@ -9,5 +9,7 @@
     <file url="file://$PROJECT_DIR$/Struts2_mvc2_actionMapping_xml_wildCard/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Struts2_mvc3_actionMapping_anotaciones/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Struts2_mvc3_actionMapping_anotaciones/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Struts2_mvc4_requestParameter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Struts2_mvc4_requestParameter/src/main/resources" charset="UTF-8" />
   </component>
 </project>

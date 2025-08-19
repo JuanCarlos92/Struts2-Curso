@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/Struts2_mvc3_actionMapping_anotaciones/pom.xml" />
         <option value="$PROJECT_DIR$/Struts2_mvc1_actionMapping_xml/pom.xml" />
         <option value="$PROJECT_DIR$/Struts2_mvc2_actionMapping_xml_wildCard/pom.xml" />
+        <option value="$PROJECT_DIR$/Struts2_mvc4_requestParameter/pom.xml" />
       </list>
     </option>
   </component>
