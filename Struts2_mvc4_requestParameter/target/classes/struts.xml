@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC
         "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 
 <struts>
+    <!-- Configuración básica -->
     <constant name="struts.devMode" value="true"/>
-    <constant name="struts.i18n.encoding" value="UTF-8"/>
-    <constant name="struts.convention.packages" value="com.juancarlos.example.mvc.requestparameter"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+    <constant name="struts.convention.action.packages" value="com.juancarlos.example.mvc.requestparameter"/>
 
-    <package name="default" namespace="/" extends="struts-default">
-
-        <action name="">
-            <result>/WEB-INF/views/index.jsp</result>
-        </action>
-
+    <!-- Paquete por defecto (vacío, porque usas anotaciones) -->
+    <package name="default" extends="struts-default">
+        <!-- No necesitas declarar actions aquí si usas anotaciones -->
     </package>
 </struts>

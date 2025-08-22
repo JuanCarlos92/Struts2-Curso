@@ -1,9 +1,7 @@
 package com.juancarlos.example.mvc.requestparameter;
 
 import com.opensymphony.xwork2.ActionSupport;
-import org.apache.struts2.convention.annotation.Action;
-import org.apache.struts2.convention.annotation.Namespace;
-import org.apache.struts2.convention.annotation.Result;
+import org.apache.struts2.convention.annotation.*;
 
 @Namespace("/ejemplo")
 public class EjemploRequestParameterAction extends ActionSupport {

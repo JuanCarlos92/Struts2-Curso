@@ -24,7 +24,7 @@
         </p>
     </div>
 
-    <s:url var="volver" action="index" namespace="/"/>
+    <s:url var="volver" value="/"/>
     <s:a class="btn btn-primary" href="%{volver}">Volver</s:a>
 </div>
 </body>

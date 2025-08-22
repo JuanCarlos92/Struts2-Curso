@@ -22,17 +22,17 @@
                 <!-- Ejemplo con Integer -->
                 <li>
                     <s:url var="holaIntegerUrl" namespace="/ejemplo" action="hola-integer">
-                        <s:param name="holaIntegerParam" value="%{'5'}" />
+                        <s:param name="holaIntegerParam" value="%{'5'}"/>
                     </s:url>
-                    <s:a href="%{holaIntegerUrl}">Enviar holaIntegerParam=5</s:a>
+                    <s:a href="%{holaIntegerUrl}">Enviar holaIntegerParam?=5</s:a>
                 </li>
 
                 <!-- Ejemplo con String -->
                 <li>
                     <s:url var="holaStringUrl" namespace="/ejemplo" action="hola-string">
-                        <s:param name="holaStringParam" value="%{'7'}" />
+                        <s:param name="holaStringParam" value="%{'7'}"/>
                     </s:url>
-                    <s:a href="%{holaStringUrl}">Enviar holaStringParam=7</s:a>
+                    <s:a href="%{holaStringUrl}">Enviar holaStringParam?=7</s:a>
                 </li>
 
                 <!-- Ejemplo con mezcla de parámetros -->
@@ -40,11 +40,10 @@
                     <s:url var="holaStringIntegerUrl" namespace="/ejemplo" action="hola-string-integer">
                         <s:param name="holaStringParam">Hola soy un String</s:param>
                         <s:param name="holaIntegerParam">3</s:param>
-                        <s:param name="saludo" value="%{'Que tal, hemos recibido un Mix de Parámetros GET'}" />
+                        <s:param name="saludo" value="%{'Que tal, hemos recibido un Mix de Parámetros GET'}"></s:param>
                     </s:url>
                     <s:a href="%{holaStringIntegerUrl}">Enviar un Mix de Parámetros GET</s:a>
                 </li>
-
             </ul>
         </div>
     </div>
